@@ -8,7 +8,7 @@ public class NumberToBreakOn {
             for (int i =1; i <= numberToGoUntil; i++) System.out.println(i);
         }
         else {
-            for (int i = 1; i <= numberToGoUntil; i++)
+            for (int i = 1; i <= numberToGoUntil+1; i++)
             {
                 if (i == toBreakWith) break;
                 System.out.println(i);

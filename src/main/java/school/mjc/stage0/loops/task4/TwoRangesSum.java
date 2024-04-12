@@ -8,7 +8,7 @@ public class TwoRangesSum {
         {
             int sumskip = 0;
             int sum = 0;
-            for (int i = 0; i < lastInRow; i++)
+            for (int i = 0; i <= lastInRow; i++)
             {
                 if (i == numberToSkip) { sumskip += i; continue;}
                 sum += i;
