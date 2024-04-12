@@ -13,8 +13,8 @@ public class TwoRangesSum {
                 if (i == numberToSkip) { sumskip += i; continue;}
                 sum += i;
             }
-            System.out.println();
-            System.out.println();
+            System.out.println("skipped sum is " + sumskip);
+            System.out.println("counted sum is " + sum);
         }
     }
 }
