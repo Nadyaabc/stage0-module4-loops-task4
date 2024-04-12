@@ -7,11 +7,13 @@ public class NumberToBreakOn {
             System.out.println("iterating till the end");
             for (int i = 0; i < numberToGoUntil; i++) System.out.println(i);
         }
-
-        for (int i = 0; i <= numberToGoUntil; i++)
-        {
-            if (i == toBreakWith) break;
-            System.out.println(i);
+        else {
+            for (int i = 0; i <= numberToGoUntil; i++)
+            {
+                if (i == toBreakWith) break;
+                System.out.println(i);
+            }
         }
+
     }
 }
